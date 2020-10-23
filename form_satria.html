@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <h1>
+            <center>Formulir Pendaftaran Siswa</center>  
+        </h1>
+        <title>form_satriaTI01</title>
+            <style>
+                
+            </style>
+    </head>
+<body bgcolor="lightgrey">
+    <label for="start_date">Tanggal</label>
+    <input type="date" name="start_date" id="start_date" value="2020-20-10">
+
+    <form action="post" action="/form_satria.html">
+        <fieldset id="personal_information">
+            <legend>
+                Informasi Pribadi
+            </legend>
+           <ul type="none">
+                <li>
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" name="name" id="name">
+                </li>
+                <li> 
+                    <label for="Tanggal lahir">Tempat tanggal lahir</label>
+                    <input type="text" id="Tanggal lahir" >
+                </li>
+            </ul>
+            
+        </fieldset>
+    </form>
+    <form action="post" action="/form_satria.html">
+        <fieldset id="personal_information">
+            <legend>Informasi Kontak</legend>
+            <ul type="none">
+                <li>
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" name="name" id="name">
+                </li>
+                <li> 
+                    <label for="Tanggal lahir">Tempat tanggal lahir</label>
+                    <input type="text" id="Tanggal lahir" >
+                </li>
+                <li> 
+                    <label for="Alamat">Alamat</label>
+                    <input type="text" id="Alamat" >
+                </li>
+                <li> 
+                    <label for="Provinsi"> Provinsi</label>
+                    <input type="text" id="Provinsi" >
+                </li> 
+                <li> 
+                    <label for="Kota"> Kota</label>
+                    <input type="text" id="Kota" >
+                </li>
+                <li> 
+                    <label for="Nomor HP"> Nomor HP</label>
+                    <input type="text" id="Nomor HP" >
+                </li>
+                <li> 
+                    <label for="E-mail"> E-mail</label>
+                    <input type="text" id="E-mail" >
+                </li>
+            </ul>
+                <div>
+                    <label>Jenis Kelamin</label><br>
+                    <label for="Laki-laki" >Laki-laki</label>
+                    <input type="radio" id="Laki-laki" name="gender">
+                    <label for="Perempuan" >Perempuan</label>
+                    <input type="radio" id="Perempuan" name="gender" >
+                </div>
+        </fieldset>
+    </form> 
+    
+    <form action="post"> 
+        <fieldset id="personal_information">
+            <legend>Informasi Kursus</legend>
+            <ul type="none">
+                <li>
+                    <label for="name">Nama Kursus</label>
+                    <input type="text" name="name" id="name">
+                </li>
+                <label>Detail Pembayaran</label>
+                <br>
+                
+                <label for="cash">Cash</label>
+                <input type="radio" id="cash" name="pembayaran">
+                
+                <label for=cheque">Cheque</label>
+                <input type="radio" id=cheque" name="pembayaran">
+                
+                <label for="credit card">Kartu Kredit</label>
+                <input type="radio" id="credit card" name="pembayaran">
+                <br>
+                
+                <label>Komentar anda</label>
+                <br>
+                <textarea name="alamat_kirim" cols="30" rows="5"></textarea>
+                <br>
+                <input type="submit" value="Kirim">
+            </ul>
+
+        </fieldset>
+    </form>
+
+    
+    
+</body>
+
+</html>
